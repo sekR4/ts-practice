@@ -14,7 +14,6 @@ curl -o $project.zip -O $url && unzip $project.zip && rm $project.zip && mv $pro
 
 ## Environment
 ```bash
-pyenv virtualenv 3.8.10 tseries
-pyenv activate tseries
-pip install -U pip && pip install -r requirements.txt
+pyenv virtualenv 3.8.10 tseries && pyenv activate tseries
+pip install -U pip && pip install -r src/requirements.txt
 ```
